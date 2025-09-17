@@ -1,0 +1,11 @@
+DirectoryIndex index.html
+
+AddType application/wasm .wasm
+AddType application/octet-stream .data
+AddType application/octet-stream .mem
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)(\.unity3d|\.wasm|\.mem|\.data)$ /game [L,QSA,NC]
