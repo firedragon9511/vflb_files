@@ -135,6 +135,28 @@
             "bannedNicknames" : [
                 "LetsGoBuildd"
             ]
+        },
+        {
+            "name" : "Level 94 (Backrooms)",
+            "map" : "Level94",
+            "maxPlayers" : 32,
+            "maxProps" : 50,
+            "maxNPCs" : 50,
+            "maxVehicles" : 32,
+            "allowRPG" : true,
+            "allowTools" : false,
+            "allowDupe" : false,
+            "damage" : true,
+            "private" : true,
+            "disable" : false,
+            "r" : 255,
+            "g" : 255,
+            "b" : 255,
+            "a" : 255,
+            
+            "bannedNicknames" : [
+                
+            ]
         }
         
     ]
