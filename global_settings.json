@@ -1,0 +1,141 @@
+{
+    "android" : "3.7.1.7",
+    "ios" : "3.7.017",
+    
+    "credits" : "- Credits to: Facepunch Studios, Garry Newman, Valve\n- Developers: BRKsHacker, Cloudymiro, Fadyi\n- Modeler: BigWig, Bremm and Hardreton and friends, DigitalExplorations, Tony W.\n- Artists: Nikita Golubev, Freepik\n- Bug Testing: RetardedRunningHorse\n- Content Creators: OOFMOD_YT\n\nGiant Skibidi Toilet animation by NOOB on Sketchfab\nhttps://creativecommons.org/licenses/by/4.0/",
+    
+    "ads":{
+        "dieAdFrequency" : 2,
+        "spawnAdCountTimer" : 4,
+        "showAdInMenuWhenOpenList" : false,
+        "fairAdCount" : 80,
+        "defaultClockTimer" : 240
+    },
+    
+    "sandbox":{
+        "allowDupe" : true,
+        "allowNextbotTool" : true,
+        "maximumCustomNextbotSpeed" : 15,
+        "circuitStackOverflow" : 15,
+        "maximumDancerHeadSize" : 30,
+        
+        "npcToolMaxWalkSpeed" : 10,
+        "setScaleToolMaximum" : 3,
+        "weightToolMaximum" : 100,
+        "allowCircuits" : true,
+        "spawnDupeDelay" : 3,
+        
+        "disallowedProps" : [
+            "tower_ref"
+        ]
+    },
+    
+    "player":{
+        "respawnShield" : 2
+    },
+    
+    "host" : {
+        "kickCooldown" : 1
+    },
+    
+    "tr" : {
+        "dangerousTagsProtection" : true,
+        "enableQuadProtection" : true,
+        "canQuadBan" : false,
+        "enableGht" : false,
+        "maxCircuitOverflows" : 10
+    },
+    
+    "publicRooms" : [
+        {
+            "name" : "City RP",
+            "map" : "BigCity",
+            "maxPlayers" : 32,
+            "maxProps" : 100,
+            "maxNPCs" : 20,
+            "maxVehicles" : 32,
+            "allowRPG" : true,
+            "allowTools" : true,
+            "allowDupe" : true,
+            "damage" : false,
+            "private" : true,
+            "disable" : false,
+            "r" : 255,
+            "g" : 255,
+            "b" : 255,
+            "a" : 255,
+            
+            "bannedNicknames" : [
+                "LetsGoBuildd"
+            ]
+        },
+        
+        {
+            "name" : "Airport RP",
+            "map" : "Airport01",
+            "maxPlayers" : 32,
+            "maxProps" : 30,
+            "maxNPCs" : 20,
+            "maxVehicles" : 32,
+            "allowRPG" : false,
+            "allowTools" : true,
+            "allowDupe" : true,
+            "damage" : false,
+            "private" : true,
+            "disable" : false,
+            "r" : 255,
+            "g" : 255,
+            "b" : 255,
+            "a" : 255,
+            
+            "bannedNicknames" : [
+                "LetsGoBuildd"
+            ]
+        },
+         {
+            "name" : "Base RP",
+            "map" : "MilitaryBase01",
+            "maxPlayers" : 32,
+            "maxProps" : 30,
+            "maxNPCs" : 20,
+            "maxVehicles" : 32,
+            "allowRPG" : true,
+            "allowTools" : false,
+            "allowDupe" : true,
+            "damage" : true,
+            "private" : false,
+            "disable" : false,
+            "r" : 255,
+            "g" : 255,
+            "b" : 255,
+            "a" : 255,
+            
+            "bannedNicknames" : [
+                "LetsGoBuildd"
+            ]
+        },
+        {
+            "name" : "City PVP",
+            "map" : "BigCity",
+            "maxPlayers" : 32,
+            "maxProps" : 20,
+            "maxNPCs" : 20,
+            "maxVehicles" : 32,
+            "allowRPG" : true,
+            "allowTools" : false,
+            "allowDupe" : false,
+            "damage" : true,
+            "private" : false,
+            "disable" : false,
+            "r" : 255,
+            "g" : 255,
+            "b" : 255,
+            "a" : 255,
+            
+            "bannedNicknames" : [
+                "LetsGoBuildd"
+            ]
+        }
+        
+    ]
+}
